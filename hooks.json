@@ -1,0 +1,12 @@
+{
+    "hooks": [
+        {
+            "name": "app.payment.form.processor.goodword",
+            "script": "./cartridge/scripts/hooks/payment/processor/goodword_form_processor.js"
+        },
+        {
+            "name": "app.payment.processor.goodword",
+            "script": "./cartridge/scripts/hooks/payment/processor/goodword.js"
+        }
+    ]
+}

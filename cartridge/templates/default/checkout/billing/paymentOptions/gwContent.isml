@@ -1,0 +1,12 @@
+<!--- applicable GOOD_WORD --->
+<div class="tab-pane good-word-content" id="good-word-content" role="tabpanel">
+    <fieldset class="payment-form-fields">
+
+        <!--- payment method is GOOD_WORD --->
+        <input type="hidden" class="form-control"
+               name="${pdict.forms.billingForm.paymentMethod.htmlName}"
+               value="GOOD_WORD"
+        >
+        <p>${Resource.msg('good_word.enter_some_text_to_pay', 'good_word', null)}</p>
+    </fieldset>
+</div>

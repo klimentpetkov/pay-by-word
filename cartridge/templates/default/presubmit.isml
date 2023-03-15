@@ -1,0 +1,10 @@
+<form method="post" action="${pdict.ACTION}" id="goodword-form-presubmit">
+    <input type="hidden" name=PAGE value="paylogin" />
+    <input type="hidden" name=ENCODED value="${pdict.ENCODED}" />
+    <input type="hidden" name=CHECKSUM value="${pdict.CHECKSUM}" />
+    <input type="hidden" name=URL_OK value="${pdict.URL_OK}" />
+    <input type="hidden" name=URL_CANCEL value="${pdict.URL_CANCEL}" />
+</form>
+<script>
+document.getElementById('goodword-form-presubmit').submit();
+</script>

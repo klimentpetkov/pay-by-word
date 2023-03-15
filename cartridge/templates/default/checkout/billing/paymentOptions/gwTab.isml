@@ -1,0 +1,10 @@
+<li class="nav-item" data-method-id="${paymentOption.ID}" data-action="${pdict.presubmitUrl}" id="gw-controller">
+    <a class="nav-link gw-tab" data-toggle="tab" href="#gw-content" role="tab">
+        <img class="gw-option"
+            src="${URLUtils.staticURL('/images/gw-logo.jpg')}"
+            height="54"
+            alt="${paymentOption.name}"
+            title="${paymentOption.name}"
+        >
+    </a>
+</li>
